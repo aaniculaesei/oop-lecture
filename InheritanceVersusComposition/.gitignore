@@ -1,16 +1,12 @@
-# Compiled class file
+# Compiled files
 *.class
+bin/
+out/
 
-# Log file
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Archives
 *.jar
 *.war
 *.nar
@@ -19,11 +15,10 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Crash logs
 hs_err_pid*
 replay_pid*
 
-out/
-bin/
+# IDE (keep only settings.json)
 .vscode/*
 !.vscode/settings.json
