@@ -6,7 +6,8 @@ public class Truck extends Vehicle {
         super(brand);
     }
 
-    public void loadCargo() {
-        System.out.println(brand + ": loading cargo.");
+    @Override
+    public void drive() {
+        System.out.println(brand + ": truck is hauling.");
     }
 }

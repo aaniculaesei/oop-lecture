@@ -6,7 +6,8 @@ public class Car extends Vehicle {
         super(brand);
     }
 
-    public void openTrunk() {
-        System.out.println(brand + ": trunk opened.");
+    @Override
+    public void drive() {
+        System.out.println(brand + ": car is driving.");
     }
 }

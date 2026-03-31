@@ -5,20 +5,19 @@ public class Main {
         System.out.println("-------------------------------");
         System.out.println("Running Inheritance Example ...");
         System.out.println("-------------------------------");
-        Car car = new Car("Volvo");
-        Truck truck = new Truck("Scania");
+        
+        Vehicle car = new Car("Volvo");
+        Vehicle truck = new Truck("Scania");
 
         car.startEngine();
-        car.move();
+        car.drive();   // calls Car's version
         car.stopEngine();
-        car.openTrunk();
-
+        
         System.out.println();
 
         truck.startEngine();
-        truck.move();
+        truck.drive(); // calls Truck's version
         truck.stopEngine();
-        truck.loadCargo();
 
         System.out.println();
     }

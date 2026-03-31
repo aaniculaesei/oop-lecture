@@ -11,8 +11,8 @@ public class Vehicle {
         System.out.println(brand + ": engine started.");
     }
 
-    public void move() {
-        System.out.println(brand + ": vehicle is moving.");
+    public void drive() {
+        System.out.println(brand + ": vehicle is driving.");
     }
 
     public void stopEngine() {
